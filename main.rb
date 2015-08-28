@@ -7,6 +7,12 @@ require './filters'
 
 ## Your test code can go here
 
-# binding.pry
 
-pp qualified_candidates
+
+#pp find(5)
+#binding.pry
+#pp experienced?(@candidates[0])
+#pp experienced?(@candidates[1])
+
+
+pp qualified_candidates(@candidates)
